@@ -32,6 +32,9 @@ namespace Calculate
                 case "-":
                     res = a - b;
                     break;
+                case "*":
+                    res = a * b;
+                    break;
             }
             LabelRes.Text = "Ответ: " + res.ToString();
         }
