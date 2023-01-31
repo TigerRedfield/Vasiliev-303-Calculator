@@ -35,6 +35,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.LabelRes = new System.Windows.Forms.Label();
             this.buttonSub = new System.Windows.Forms.Button();
+            this.buttonDiv = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // buttonAdd
@@ -107,12 +108,24 @@
             this.buttonSub.UseVisualStyleBackColor = true;
             this.buttonSub.Click += new System.EventHandler(this.buttonCalc_Click);
             // 
+            // buttonDiv
+            // 
+            this.buttonDiv.Location = new System.Drawing.Point(78, 138);
+            this.buttonDiv.Name = "buttonDiv";
+            this.buttonDiv.Size = new System.Drawing.Size(45, 46);
+            this.buttonDiv.TabIndex = 7;
+            this.buttonDiv.Tag = "/";
+            this.buttonDiv.Text = "/";
+            this.buttonDiv.UseVisualStyleBackColor = true;
+            this.buttonDiv.Click += new System.EventHandler(this.buttonCalc_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(328, 266);
+            this.Controls.Add(this.buttonDiv);
             this.Controls.Add(this.buttonSub);
             this.Controls.Add(this.LabelRes);
             this.Controls.Add(this.label2);
@@ -136,6 +149,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label LabelRes;
         private System.Windows.Forms.Button buttonSub;
+        private System.Windows.Forms.Button buttonDiv;
     }
 }
 
