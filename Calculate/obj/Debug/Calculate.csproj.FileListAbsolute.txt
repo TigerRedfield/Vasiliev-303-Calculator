@@ -1,0 +1,11 @@
+C:\Учёба\МДК 01.01\Git\Calculate\Calculate\bin\Debug\Calculate.exe.config
+C:\Учёба\МДК 01.01\Git\Calculate\Calculate\bin\Debug\Calculate.exe
+C:\Учёба\МДК 01.01\Git\Calculate\Calculate\bin\Debug\Calculate.pdb
+C:\Учёба\МДК 01.01\Git\Calculate\Calculate\obj\Debug\Calculate.csproj.AssemblyReference.cache
+C:\Учёба\МДК 01.01\Git\Calculate\Calculate\obj\Debug\Calculate.csproj.SuggestedBindingRedirects.cache
+C:\Учёба\МДК 01.01\Git\Calculate\Calculate\obj\Debug\Calculate.Form1.resources
+C:\Учёба\МДК 01.01\Git\Calculate\Calculate\obj\Debug\Calculate.Properties.Resources.resources
+C:\Учёба\МДК 01.01\Git\Calculate\Calculate\obj\Debug\Calculate.csproj.GenerateResource.cache
+C:\Учёба\МДК 01.01\Git\Calculate\Calculate\obj\Debug\Calculate.csproj.CoreCompileInputs.cache
+C:\Учёба\МДК 01.01\Git\Calculate\Calculate\obj\Debug\Calculate.exe
+C:\Учёба\МДК 01.01\Git\Calculate\Calculate\obj\Debug\Calculate.pdb
