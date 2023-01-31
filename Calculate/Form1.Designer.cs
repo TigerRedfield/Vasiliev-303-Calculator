@@ -34,6 +34,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.LabelRes = new System.Windows.Forms.Label();
+            this.buttonSub = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // buttonAdd
@@ -95,12 +96,24 @@
             this.LabelRes.TabIndex = 5;
             this.LabelRes.Text = "Ответ:";
             // 
+            // buttonSub
+            // 
+            this.buttonSub.Location = new System.Drawing.Point(180, 138);
+            this.buttonSub.Name = "buttonSub";
+            this.buttonSub.Size = new System.Drawing.Size(45, 46);
+            this.buttonSub.TabIndex = 6;
+            this.buttonSub.Tag = "-";
+            this.buttonSub.Text = "-";
+            this.buttonSub.UseVisualStyleBackColor = true;
+            this.buttonSub.Click += new System.EventHandler(this.buttonCalc_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(328, 266);
+            this.Controls.Add(this.buttonSub);
             this.Controls.Add(this.LabelRes);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -122,6 +135,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label LabelRes;
+        private System.Windows.Forms.Button buttonSub;
     }
 }
 
