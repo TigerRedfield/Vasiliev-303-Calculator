@@ -9,3 +9,14 @@ C:\Учёба\МДК 01.01\Git\Calculate\Calculate\obj\Debug\Calculate.csproj.Ge
 C:\Учёба\МДК 01.01\Git\Calculate\Calculate\obj\Debug\Calculate.csproj.CoreCompileInputs.cache
 C:\Учёба\МДК 01.01\Git\Calculate\Calculate\obj\Debug\Calculate.exe
 C:\Учёба\МДК 01.01\Git\Calculate\Calculate\obj\Debug\Calculate.pdb
+C:\Users\Tiger\Desktop\Git Clone\Vasiliev-303-Calculator\Calculate\bin\Debug\Calculate.exe.config
+C:\Users\Tiger\Desktop\Git Clone\Vasiliev-303-Calculator\Calculate\bin\Debug\Calculate.exe
+C:\Users\Tiger\Desktop\Git Clone\Vasiliev-303-Calculator\Calculate\bin\Debug\Calculate.pdb
+C:\Users\Tiger\Desktop\Git Clone\Vasiliev-303-Calculator\Calculate\obj\Debug\Calculate.csproj.AssemblyReference.cache
+C:\Users\Tiger\Desktop\Git Clone\Vasiliev-303-Calculator\Calculate\obj\Debug\Calculate.csproj.SuggestedBindingRedirects.cache
+C:\Users\Tiger\Desktop\Git Clone\Vasiliev-303-Calculator\Calculate\obj\Debug\Calculate.Form1.resources
+C:\Users\Tiger\Desktop\Git Clone\Vasiliev-303-Calculator\Calculate\obj\Debug\Calculate.Properties.Resources.resources
+C:\Users\Tiger\Desktop\Git Clone\Vasiliev-303-Calculator\Calculate\obj\Debug\Calculate.csproj.GenerateResource.cache
+C:\Users\Tiger\Desktop\Git Clone\Vasiliev-303-Calculator\Calculate\obj\Debug\Calculate.csproj.CoreCompileInputs.cache
+C:\Users\Tiger\Desktop\Git Clone\Vasiliev-303-Calculator\Calculate\obj\Debug\Calculate.exe
+C:\Users\Tiger\Desktop\Git Clone\Vasiliev-303-Calculator\Calculate\obj\Debug\Calculate.pdb

@@ -19,10 +19,10 @@ namespace Calculate
 
         private void buttonCalc_Click(object sender, EventArgs e)
         {
-            int a, b, res = 0;
+            double a, b, res = 0;
 
-            a = Convert.ToInt32(FirstDigit.Text);
-            b = Convert.ToInt32(SecondDigit.Text);
+            a = Convert.ToDouble(FirstDigit.Text);
+            b = Convert.ToDouble(SecondDigit.Text);
 
             switch((sender as Button).Text)
             {
