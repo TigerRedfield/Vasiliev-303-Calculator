@@ -36,13 +36,15 @@
             this.LabelRes = new System.Windows.Forms.Label();
             this.buttonMul = new System.Windows.Forms.Button();
             this.buttonSub = new System.Windows.Forms.Button();
+            this.buttonDiv = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // buttonAdd
             // 
-            this.buttonAdd.Location = new System.Drawing.Point(76, 138);
+            this.buttonAdd.Location = new System.Drawing.Point(133, 212);
+            this.buttonAdd.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAdd.Name = "buttonAdd";
-            this.buttonAdd.Size = new System.Drawing.Size(45, 46);
+            this.buttonAdd.Size = new System.Drawing.Size(68, 71);
             this.buttonAdd.TabIndex = 0;
             this.buttonAdd.Tag = "+";
             this.buttonAdd.Text = "+";
@@ -52,28 +54,31 @@
             // FirstDigit
             // 
             this.FirstDigit.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.FirstDigit.Location = new System.Drawing.Point(30, 73);
+            this.FirstDigit.Location = new System.Drawing.Point(45, 112);
+            this.FirstDigit.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.FirstDigit.Multiline = true;
             this.FirstDigit.Name = "FirstDigit";
-            this.FirstDigit.Size = new System.Drawing.Size(91, 41);
+            this.FirstDigit.Size = new System.Drawing.Size(134, 61);
             this.FirstDigit.TabIndex = 1;
             // 
             // SecondDigit
             // 
             this.SecondDigit.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.SecondDigit.Location = new System.Drawing.Point(189, 73);
+            this.SecondDigit.Location = new System.Drawing.Point(284, 112);
+            this.SecondDigit.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.SecondDigit.Multiline = true;
             this.SecondDigit.Name = "SecondDigit";
-            this.SecondDigit.Size = new System.Drawing.Size(91, 41);
+            this.SecondDigit.Size = new System.Drawing.Size(134, 61);
             this.SecondDigit.TabIndex = 2;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(27, 54);
+            this.label1.Location = new System.Drawing.Point(40, 83);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(111, 16);
+            this.label1.Size = new System.Drawing.Size(152, 25);
             this.label1.TabIndex = 3;
             this.label1.Text = "Первое число";
             // 
@@ -81,9 +86,10 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(186, 54);
+            this.label2.Location = new System.Drawing.Point(279, 83);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(109, 16);
+            this.label2.Size = new System.Drawing.Size(152, 25);
             this.label2.TabIndex = 4;
             this.label2.Text = "Второе число";
             // 
@@ -91,17 +97,19 @@
             // 
             this.LabelRes.AutoSize = true;
             this.LabelRes.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.LabelRes.Location = new System.Drawing.Point(26, 208);
+            this.LabelRes.Location = new System.Drawing.Point(39, 320);
+            this.LabelRes.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LabelRes.Name = "LabelRes";
-            this.LabelRes.Size = new System.Drawing.Size(78, 24);
+            this.LabelRes.Size = new System.Drawing.Size(109, 33);
             this.LabelRes.TabIndex = 5;
             this.LabelRes.Text = "Ответ:";
             // 
             // buttonMul
             // 
-            this.buttonMul.Location = new System.Drawing.Point(178, 138);
+            this.buttonMul.Location = new System.Drawing.Point(297, 212);
+            this.buttonMul.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonMul.Name = "buttonMul";
-            this.buttonMul.Size = new System.Drawing.Size(45, 46);
+            this.buttonMul.Size = new System.Drawing.Size(68, 71);
             this.buttonMul.TabIndex = 6;
             this.buttonMul.Tag = "*";
             this.buttonMul.Text = "*";
@@ -110,21 +118,35 @@
             // 
             // buttonSub
             // 
-            this.buttonSub.Location = new System.Drawing.Point(127, 138);
+            this.buttonSub.Location = new System.Drawing.Point(209, 212);
+            this.buttonSub.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonSub.Name = "buttonSub";
-            this.buttonSub.Size = new System.Drawing.Size(45, 46);
+            this.buttonSub.Size = new System.Drawing.Size(68, 71);
             this.buttonSub.TabIndex = 7;
             this.buttonSub.Tag = "-";
             this.buttonSub.Text = "-";
             this.buttonSub.UseVisualStyleBackColor = true;
             this.buttonSub.Click += new System.EventHandler(this.buttonCalc_Click);
             // 
+            // buttonDiv
+            // 
+            this.buttonDiv.Location = new System.Drawing.Point(57, 212);
+            this.buttonDiv.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.buttonDiv.Name = "buttonDiv";
+            this.buttonDiv.Size = new System.Drawing.Size(68, 71);
+            this.buttonDiv.TabIndex = 7;
+            this.buttonDiv.Tag = "/";
+            this.buttonDiv.Text = "/";
+            this.buttonDiv.UseVisualStyleBackColor = true;
+            this.buttonDiv.Click += new System.EventHandler(this.buttonCalc_Click);
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(328, 266);
+            this.ClientSize = new System.Drawing.Size(492, 409);
+            this.Controls.Add(this.buttonDiv);
             this.Controls.Add(this.buttonSub);
             this.Controls.Add(this.buttonMul);
             this.Controls.Add(this.LabelRes);
@@ -133,6 +155,7 @@
             this.Controls.Add(this.SecondDigit);
             this.Controls.Add(this.FirstDigit);
             this.Controls.Add(this.buttonAdd);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.Text = "КалькуляторГит";
             this.ResumeLayout(false);
@@ -150,6 +173,7 @@
         private System.Windows.Forms.Label LabelRes;
         private System.Windows.Forms.Button buttonMul;
         private System.Windows.Forms.Button buttonSub;
+        private System.Windows.Forms.Button buttonDiv;
     }
 }
 
