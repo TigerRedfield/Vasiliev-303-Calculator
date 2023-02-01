@@ -34,12 +34,13 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.LabelRes = new System.Windows.Forms.Label();
+            this.buttonMul = new System.Windows.Forms.Button();
             this.buttonSub = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // buttonAdd
             // 
-            this.buttonAdd.Location = new System.Drawing.Point(129, 138);
+            this.buttonAdd.Location = new System.Drawing.Point(76, 138);
             this.buttonAdd.Name = "buttonAdd";
             this.buttonAdd.Size = new System.Drawing.Size(45, 46);
             this.buttonAdd.TabIndex = 0;
@@ -96,12 +97,23 @@
             this.LabelRes.TabIndex = 5;
             this.LabelRes.Text = "Ответ:";
             // 
+            // buttonMul
+            // 
+            this.buttonMul.Location = new System.Drawing.Point(178, 138);
+            this.buttonMul.Name = "buttonMul";
+            this.buttonMul.Size = new System.Drawing.Size(45, 46);
+            this.buttonMul.TabIndex = 6;
+            this.buttonMul.Tag = "*";
+            this.buttonMul.Text = "*";
+            this.buttonMul.UseVisualStyleBackColor = true;
+            this.buttonMul.Click += new System.EventHandler(this.buttonCalc_Click);
+            // 
             // buttonSub
             // 
-            this.buttonSub.Location = new System.Drawing.Point(180, 138);
+            this.buttonSub.Location = new System.Drawing.Point(127, 138);
             this.buttonSub.Name = "buttonSub";
             this.buttonSub.Size = new System.Drawing.Size(45, 46);
-            this.buttonSub.TabIndex = 6;
+            this.buttonSub.TabIndex = 7;
             this.buttonSub.Tag = "-";
             this.buttonSub.Text = "-";
             this.buttonSub.UseVisualStyleBackColor = true;
@@ -114,6 +126,7 @@
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(328, 266);
             this.Controls.Add(this.buttonSub);
+            this.Controls.Add(this.buttonMul);
             this.Controls.Add(this.LabelRes);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -135,6 +148,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label LabelRes;
+        private System.Windows.Forms.Button buttonMul;
         private System.Windows.Forms.Button buttonSub;
     }
 }
